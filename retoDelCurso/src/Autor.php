@@ -1,13 +1,18 @@
 <?php 
-use App/User;
+namespace App;
 
 class Autor extends User{
-    public $post=[];
+    public $posts=[];
     public $crearPost;
 
-    public function crear_post(String $crearPost){
-        $this->post[] = $crearPost;
+    public function crearPost(Post $post){
+        $this->posts[] = $post;
     }
+
+    public function getPosts(): Array{
+        return $this->posts;
+    }
+
 }
 
 ?>

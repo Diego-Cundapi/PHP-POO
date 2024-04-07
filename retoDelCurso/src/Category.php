@@ -1,9 +1,14 @@
 <?php 
-
+namespace App;
 class Category{
-    $categoria = "";
-    public function __construct($categoria){
-        $this->categoria = $categoria
+    public $categoria;
+
+    public function setCategoria(String $categoria){
+        $this->categoria = $categoria;
+    }
+
+    public function getCategoria() : String{
+        return $this->categoria;
     }
 }
 
