@@ -1,0 +1,9 @@
+Crea un ejemplo que ilustre la configuración de un post o artículo de un blog. Entendemos que este tipo de soluciones requieren un autor (quien crea el post) y el post (pieza de contenido creada por un autor). Este post tendrá categorías para segmentarlos y hacer un fácil filtrado.
+
+¿Qué necesitas?
+
+User: clase base para los autores.
+Author: hereda de User y es quien creará a los post o artículos.
+Post: clase protagonista, es quien servirá para dar vida al objetivo principal de un blog.
+Category: clase que servirá para segmentar a nuestros artículos. Es un campo más de los artículos y permitirá por ejemplo que un artículo sea de PHP, Vue.js, JavaScript, etc.
+No hay una única solución ni una solución correcta, el objetivo es pensar, practicar y entender poco a poco cómo funciona esta nueva forma de construir proyectos.
